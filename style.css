@@ -97,3 +97,63 @@ body {
     }
   }
   
+  .bg-img{
+    background-color: black;
+    /*background-image: url("media/download.jpg")*/
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: url("media/gands.jpg");
+}
+.bd-placeholder-img-2 {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: url("media/j3.jpg");
+}
+.bd-placeholder-img-3 {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: url("media/c1.jpg");
+}
+.navbar{
+    background:transparent !important;
+}
+.logo {
+    display: block;
+    max-width: 12%;
+    margin-left: ;
+}
+.logo-text {
+    color: white;
+    
+}
+.nav {
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.main-img-bg-1 {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: url("media/logores.png");
+}
+.main-img-bg-2 {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: url("media/morgan2.png");
+}
