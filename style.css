@@ -157,3 +157,11 @@ body {
     user-select: none;
     background-image: url("media/morgan2.png");
 }
+
+.nav-link-h {
+  color: white;
+}
+
+.nav-link-h:hover {
+  color: gold;
+}
