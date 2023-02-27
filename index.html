@@ -11,6 +11,11 @@
         <!-- Bootstrap CSS -->
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+        <!-- MDB -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
 
         <!-- Custom -->
         <link rel="stylesheet" href="style.css">
@@ -170,6 +175,21 @@
         .bg-img2 {
           background-image: url("media/download.jpg");
         }
+      #intro {
+        background-image: url("media/download.jpg");
+        height: 80vh;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      }
+      .visitusbutton {
+        background-color: orange;
+        width: 25%;
+      }
         </style>
 
       </head>
@@ -189,7 +209,7 @@
                     <li><a href="index.html" class="nav-link nav-link-h">Home</a></li>
                     <li><a href="services.html" id="about" class="nav-link nav-link-h">Gold and Silver Services</a></li>
                     <li><a href="education.html" class="nav-link nav-link-h">Gold and Silver Education</a></li>
-                    <li><a href="#" class="nav-link nav-link-h">Contact Us</a></li>
+                    <li><a href="contact.html" class="nav-link nav-link-h">Contact Us</a></li>
                 </ul>
 
                 
@@ -197,8 +217,16 @@
             </div>
           </header>
 
-          <div class="bg-img2" style="height:80%; margin-top: 40%;">
-            &nbsp;
+          <div id="intro" class="bg-image shadow-2-strong" style="margin-top: auto; margin-bottom: 0%; height: ;">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+              <div class="container d-flex align-items-center justify-content-center text-center h-100">
+                <div class="text-white" style="margin-top:;">
+                  <h1 class="mb-3" style="font-size: 70px;">Your Trusted Precious Metal Dealer</h1>
+                  <h1 class="mb-4">Honesty | Transparency | Education | Respect</h5>
+                  <a class="btn btn-outline-light btn-lg m-2 visitusbutton" style="font-size: x-large;" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button" rel="nofollow" target="_blank">Visit Us</a>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="bg-dark">
